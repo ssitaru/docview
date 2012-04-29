@@ -1,5 +1,5 @@
 <?php
-$GLOBALS['docview_debug'] = false;
+$GLOBALS['docview_debug'] = true;
 
 $GLOBALS['docview_version'] = '0.1 beta';
 $GLOBALS['docview_docpath'] = './docs/';

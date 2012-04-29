@@ -25,8 +25,7 @@ $name = $ar[1];
 <link rel="stylesheet" type="text/css" href="base.css"/>
 <?php
 # output title
-echo '<title>';
-echo '['.$id.']';
+echo '<title>docview | ';
 echo preg_replace('/([A-Z])/', ' $1', $name);
 echo '</title>';
 
