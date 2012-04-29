@@ -1,3 +1,75 @@
 /*
  * docview base css
  */
+ 
+body,html 
+{
+	background-color: #444;
+	font-family: "Arial",sans-serif;
+}
+
+#container 
+{
+	border-radius: 10px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+}
+
+#container h1 
+{
+background: rgb(193,193,193);
+background: -moz-linear-gradient(top,  rgba(193,193,193,1) 0%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(193,193,193,1)), color-stop(100%,rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top,  rgba(193,193,193,1) 0%,rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(top,  rgba(193,193,193,1) 0%,rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(top,  rgba(193,193,193,1) 0%,rgba(255,255,255,1) 100%);
+background: linear-gradient(top,  rgba(193,193,193,1) 0%,rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1c1c1', endColorstr='#ffffff',GradientType=0 );
+
+
+	padding: 10px;
+	border-radius: 10px 10px 0px 0px;
+	
+	margin-bottom: 0px;
+	font-size: 2.2em;
+}
+
+#main
+{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	
+	min-height: 300px;
+	
+	font-size: 1.2em;
+}
+
+#main h2 
+{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+#footer 
+{
+	font-size: 0.7em;
+	background-color: purple;
+	border-radius: 0px 0px 10px 10px;
+	width: 12%;
+	padding-left: 88%;
+	padding-top: 5px;
+	height: 15px;
+	
+background: rgb(255,255,255);
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(193,193,193,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(193,193,193,1)));
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(193,193,193,1) 100%);
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(193,193,193,1) 100%);
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(193,193,193,1) 100%);
+background: linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(193,193,193,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c1c1c1',GradientType=0 );
+}
